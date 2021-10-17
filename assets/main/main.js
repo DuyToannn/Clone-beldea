@@ -5,11 +5,11 @@ icon.onclick = function(){
     document.body.classList.toggle("dark-theme")
     document.body.classList.contains("dark-theme") 
     ? icon.src = "/assets/img/sun.png" 
-    : icon.src = "/assets/img/moon.png"
+    : icon.src = "/assets/img/moon.png" 
 }
 
 //scroll
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function() {scrollFunction()}
 function scrollFunction() {
     var navbar = document.getElementById("header-scroll")
     var input = document.getElementById("input")
