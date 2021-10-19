@@ -4,8 +4,8 @@ var icon = document.getElementById("icon")
 icon.onclick = function(){
     document.body.classList.toggle("dark-theme")
     document.body.classList.contains("dark-theme") 
-    ? icon.src = "/assets/img/sun.png" 
-    : icon.src = "/assets/img/moon.png" 
+    ? icon.src = "./assets/img/sun.png" 
+    : icon.src = "./assets/img/moon.png" 
 }
 
 //scroll
@@ -22,3 +22,10 @@ function scrollFunction() {
     navbar.style.background = "none"
   }
 }
+
+//Counter Up
+$('.counter').counterUp({
+  delay: 10,
+  time: 5000
+});
+$('.counter').addClass('animated fadeInDownBig');

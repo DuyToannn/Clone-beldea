@@ -143,7 +143,7 @@ li {
 }
 
 .banner{
-    background: url(/assets/img/banner.png);
+    background: url(../img/banner.png);
     background-size: cover;
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: Center;
@@ -323,11 +323,12 @@ li {
 
 .services{
     margin-top: 111px;
-    background: url(/assets/img/bg1.jpg);
+    background: url(../img/bg1.jpg);
     background-size: cover;
     background-attachment: fixed;
     position: relative;
     z-index: 1;
+    padding-bottom: 70px;
 }
 
 .services::before{
@@ -356,7 +357,7 @@ li {
 }
 
 .service__box{
-    padding-top: 70px;
+    padding-top: 40px;
 }
 
 .grid-all{
@@ -387,7 +388,6 @@ li {
 
 .professionals{
     padding-top: 100px;
-    height: 1000px;
 }
 
 .professionals__title{
@@ -463,4 +463,38 @@ li {
 }
 .info-name small{
     color: #404040;
+}
+
+.counter-up{
+    background: url(/assets/img/bg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: Center;
+    background-attachment: fixed;
+    align-items: center;
+    z-index: 1;
+    position: relative;
+    margin-top: 70px;
+}
+
+.counter-up::before{
+    content: '';
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0 0 0 / 38%);
+    z-index: -1;
+}
+
+.counter{
+    font-size: 46px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.count-text{
+    text-transform: uppercase;
+    color: #fff;
 }
