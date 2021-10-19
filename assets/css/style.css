@@ -466,7 +466,7 @@ li {
 }
 
 .counter-up{
-    background: url(/assets/img/bg2.jpg);
+    background: url(../img/bg2.jpg);
     background-size: cover;
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: Center;
@@ -497,4 +497,20 @@ li {
 .count-text{
     text-transform: uppercase;
     color: #fff;
+}
+
+.testi{}
+
+.testi__title{
+    padding-top: 80px;
+    max-width: 500px;
+}
+
+.testi__title p{
+    margin-bottom: unset;
+    color: var(--font-color);
+}
+.testi__title h3{
+    color: var(--color-title);
+    font-size: var(--fontz-title);
 }
