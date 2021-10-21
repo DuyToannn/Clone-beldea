@@ -52,9 +52,9 @@ $('.owl-carousel').owlCarousel({
 
 // Mobile popup
 
-$(document).ready(function() {
-  $('.fa-bars').click(function() {
-    $('.test').slideToggle("100");
-  });
-});
+// $(document).ready(function() {
+//   $('.fa-bars').click(function() {
+//     $('.test').slideToggle("100");
+//   });
+// });
 
