@@ -8,7 +8,7 @@ icon.onclick = function(){
     : icon.src = "./assets/img/moon.png" 
 }
 
-//scroll
+// scroll
 window.onscroll = function() {scrollFunction()}
 function scrollFunction() {
     var navbar = document.getElementById("header-scroll")
@@ -30,7 +30,7 @@ $('.counter').counterUp({
 });
 $('.counter').addClass('animated fadeInDownBig');
 
-
+//slide
 $('.owl-carousel').owlCarousel({
   loop:true,
   margin:1,
@@ -49,3 +49,12 @@ $('.owl-carousel').owlCarousel({
       }
   }
 })
+
+// Mobile popup
+
+$(document).ready(function() {
+  $('.fa-bars').click(function() {
+    $('.test').slideToggle("100");
+  });
+});
+
